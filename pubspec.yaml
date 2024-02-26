@@ -1,0 +1,40 @@
+name: dqed1
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.4 <4.0.0"
+
+dependencies:
+  bottom_sheet: ^4.0.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  path: ^1.8.3
+  path_provider: ^2.1.2
+  share_plus: ^7.2.2
+  shared_preferences: ^2.2.2
+  whatsapp_stickers_plus: ^1.1.1
+  firebase_core: ^2.1.1
+  flutter_local_notifications: ^9.8.0+1
+  firebase_remote_config: ^4.3.3
+  overlay_support:
+  firebase_analytics: ^10.6.3
+  firebase_messaging: ^14.2.2
+  social_share_plus: ^0.0.4
+  flutter_inappwebview:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Numberplate
+      fonts:
+        - asset: assets/UKNumberPlate.ttf
